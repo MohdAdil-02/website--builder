@@ -1,16 +1,45 @@
-# React + Vite
+# ⚡ AI Code Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack AI-powered code generation platform that transforms natural language descriptions into working code. Built with React, Express, and Groq's LLaMA 3.3 70B model.
 
-Currently, two official plugins are available:
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react" alt="React">
+  <img src="https://img.shields.io/badge/Express-5-000000?logo=express" alt="Express">
+  <img src="https://img.shields.io/badge/Tailwind-4-06B6D4?logo=tailwindcss" alt="Tailwind">
+  <img src="https://img.shields.io/badge/Vite-7-646CFF?logo=vite" alt="Vite">
+  <img src="https://img.shields.io/badge/Groq-LLaMA%203.3-orange" alt="Groq">
+  <img src="https://img.shields.io/badge/license-MIT-green" alt="License">
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📸 Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+> *Generate React components, Express APIs, and full-stack applications with live preview*
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- 🤖 **AI-Powered Generation** — Describe what you want and get production-ready code
+- 👁️ **Live Preview** — Instantly render generated React components in an iframe sandbox
+- 🎨 **Syntax Highlighting** — Beautiful code display with line numbers via Prism
+- 📋 **One-Click Copy** — Copy generated code to clipboard instantly
+- 📱 **Fully Responsive** — Works on desktop, tablet, and mobile
+- 🔒 **Secure** — Rate limiting, CORS, Helmet.js, input validation, payload limits
+- ⚡ **Fast** — Groq's LPU inference delivers near-instant code generation
+
+---
+
+## 🎨 Code Types
+
+| Type | Description | Live Preview |
+|------|-------------|:---:|
+| 🎨 **Frontend** | React components with hooks, Tailwind CSS | ✅ |
+| ⚙️ **Backend** | Express.js servers with routes, middleware, validation | ❌ |
+| 🔗 **Full Stack** | Connected frontend component + backend API endpoint | ❌ |
+| 🔌 **API** | REST endpoint controllers with validation & error handling | ❌ |
+
+---
+
+## 🏗️ Architecture
